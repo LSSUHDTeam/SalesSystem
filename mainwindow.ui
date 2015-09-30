@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>661</width>
+    <height>528</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>661</width>
+    <height>513</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1000</width>
+    <height>1000</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>IT Sales</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>421</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Quick Sales</string>
+    </property>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>401</width>
+       <height>431</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Page 1</string>
+      </attribute>
+      <widget class="QPushButton" name="OneFiveDollarEarBuds">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>310</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Earbuds [ $5 ]</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="OneFolder">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>110</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Folder</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="OnePencil">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>210</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Pencil</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="BlueBook">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>10</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Bluebook</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="OneThreeDollarEarbuds">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>310</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Earbuds[ $3 ]</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="FiveRedScantrons">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>110</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>5 Red Scantrons</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="OneGreenScantron">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>1 Green Scantron</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="OnePen">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>210</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Pen</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="UndoLastSale">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>310</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Undo Last Sale</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="FiveGreenScantrons">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>10</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>5 Green Scantrons</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="OneRedScantron">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>110</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>1 Red Scantron</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="OneMPencil">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>210</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Mechanical Pencil</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="FiveGreenScantronsLabel">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>80</y>
+         <width>111</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="OnePenLabel">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>280</y>
+         <width>111</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="FiveRedScantronsLabel">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>180</y>
+         <width>111</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="OneGreenScantronLabel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>80</y>
+         <width>111</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="OneRedScantronLabel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>180</y>
+         <width>111</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="OneThreeDollarEarbudsLabel">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>380</y>
+         <width>111</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="OneMPencilLabel">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>280</y>
+         <width>111</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="OneFiveDollarEarbudsLabel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>380</y>
+         <width>111</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="OnePencilLabel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>280</y>
+         <width>111</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="OneFolderLabel">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>180</y>
+         <width>111</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="BlueBookLabel">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>80</y>
+         <width>111</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>Page 2</string>
+      </attribute>
+      <widget class="QPushButton" name="Sharpie">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Sharpie</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="SharpieLabel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>80</y>
+         <width>111</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="EraserLabel">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>80</y>
+         <width>111</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="Eraser">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>10</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Eraser</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="DryEraseMarker">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>10</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Dry Erase Marker</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="DryEraseMarkerLabel">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>80</y>
+         <width>111</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="HighlighterLabel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>180</y>
+         <width>111</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="Highlighter">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>110</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Highlighter</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="PaddedEnvelope">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>210</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Padded Envelope</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="PaddedEnvelopeLabel">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>280</y>
+         <width>111</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="UndoLastSale_2">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>310</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Undo Last Sale</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="largeColoredIndexCardsLabel">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>380</y>
+         <width>111</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="LaregeColoredIndexCards">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>310</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>L CL Index Cards</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="PencilRefill">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>110</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Pencil Refill</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="PencilRefillLabel">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>180</y>
+         <width>111</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="SmalleColoredIndexCardsLabel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>380</y>
+         <width>111</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="SmallColoredIndexCards">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>310</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>CL Index Cards</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="LargeRegularIndexCards">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>210</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>L Index Cards</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="LargeRegularIndexCardsLabel">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>280</y>
+         <width>111</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="SmallRegularIndexCards">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>210</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Index Cards</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="SmallRegularIndexCardsLabel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>280</y>
+         <width>111</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="PenInk">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>110</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Pen Ink</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="PenInkLabel">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>180</y>
+         <width>111</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_3">
+      <attribute name="title">
+       <string>Page 3</string>
+      </attribute>
+      <widget class="QPushButton" name="UndoLastSale_3">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>310</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Undo Last Sale</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="TapeFlags">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Tape Flags</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="TapeFlagsLabel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>80</y>
+         <width>111</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>20</y>
+      <width>191</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Other Transactions</string>
+    </property>
+    <widget class="QPushButton" name="lookupTransactionButton">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>120</y>
+       <width>171</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Lookup Transaction</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="saleButton">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>171</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Sale With Receipt</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>80</y>
+       <width>171</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Bulk purchases / Receipt required</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>170</y>
+       <width>151</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Lookup past bulk / quick sales</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="reportButton">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>210</y>
+       <width>171</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Reporting / Closing</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>270</y>
+       <width>171</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Pull receipt reports / Close Drawer</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>350</y>
+       <width>101</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Add / edit inventory</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="inventoryManagementButton">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>300</y>
+       <width>171</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Inventory Management</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>420</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Todays Total Sales : </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="todaysTotalLabel">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>420</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>$ 0.00</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>661</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuOptions">
+    <property name="title">
+     <string>Options</string>
+    </property>
+    <addaction name="actionBook_Charge"/>
+   </widget>
+   <addaction name="menuOptions"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionBook_Charge">
+   <property name="text">
+    <string>Library Charges</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
